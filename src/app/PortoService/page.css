@@ -1,0 +1,276 @@
+
+
+.auto-center-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #E4F3FA;
+    border-radius: 22px;
+    padding: 25px;
+    margin: 28px;
+  }
+  
+  .banner-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .banner-image {
+    flex: 1;
+  }
+  
+  .banner-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  
+  
+  .banner-content {
+    flex: 1;
+    background-color: E4F3FA;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  
+  .banner-content h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .banner-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #007BFF;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .services-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 22px;
+  }
+  
+  .service-list {
+    width: 45%;
+  }
+  
+  .service-list h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .service-list ul {
+    font-size: 16px;
+    color: #666;
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .Consult h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .Consult input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  input{
+    color: white;
+  }
+
+  .input {
+    color: white;
+    font-size: 0.9rem;
+    background-color: #007BFF;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: #333;
+   }
+
+   .input::placeholder{
+    color: white;
+    font-weight: 600;
+   }
+  
+   .input-border {
+    position: absolute;
+    background: #007BFF;
+    color: white;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+   }
+
+   input:hover {
+    background: #3333338d;
+   }
+   
+   input:focus {
+    outline: none;
+   }
+
+   button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    height: 26px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+   }  
+
+   button:hover{
+    background: #3333338d;
+    color: white;
+   }
+
+   h3{
+    text-align: center;
+   }
+
+   @media (max-width: 800px) {
+    .banner-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .services-section {
+      flex-direction: column;
+    }
+  
+    .service-list,
+    .Consult {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+
+  @media (max-width: 900px) and (min-width: 761px) {
+    .banner-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner-image img {
+      width: 100%;
+      max-width: 450px;
+    }
+  
+    .banner-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+      padding: 8px 18px;
+    }
+  
+    .services-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-list {
+      max-width: 450px;
+      margin-bottom: 1rem;
+      padding: 16px;
+    }
+  
+    .input {
+      width: 100%;
+      padding: 8px;
+      font-size: 1rem;
+    }
+  
+    .Consult button {
+      padding: 8px 14px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 760px) and (min-width: 601px) {
+    .banner-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner-image img {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .banner-content h1 {
+      font-size: 1.6rem;
+    }
+  
+    .cta-button {
+      font-size: 0.85rem;
+      padding: 8px 16px;
+    }
+  
+    .services-section {
+      flex-direction: column;
+    }
+  
+    .service-list {
+      max-width: 400px;
+      padding: 14px;
+      margin-bottom: 1.5rem;
+    }
+  
+    .input {
+      width: 100%;
+      padding: 7px;
+      font-size: 0.9rem;
+    }
+  
+    .Consult button {
+      padding: 7px 12px;
+      font-size: 0.9rem;
+    }
+  }

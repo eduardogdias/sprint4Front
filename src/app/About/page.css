@@ -1,0 +1,154 @@
+.about{
+    background-color: white;
+    padding: 25px;
+    margin: 22px;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.back .Tittle{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #1d1d1d;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .back .Tittle span{
+    color: #0099ff;
+ }
+ 
+ .back .SubTittle{
+    font-size: 1rem;
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: start;
+}
+
+.SubTittle p{
+  text-align: start;
+}
+
+ .back {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+  .will img{
+    width: 480px;
+    border-radius: 20px;
+   }
+
+   #card {
+    width: 280px;
+    height: 130px;
+    background: #ffff;
+    box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+    transform: translate(-50%, -50%);
+    padding: 15px 10px;
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-right: -75px;
+   }
+   
+   .card_load {
+    width: 95px;
+    height: 95px;
+    position: relative;
+    float: left;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+    40%, #e5e5e5 48%);
+    border-radius: 50%;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+   }
+   
+   .card_title {
+    width: 140px;
+    text-align: center;
+    height: 40px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+    40%, #e5e5e5 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+   }
+   
+   .card_descripion {
+    width: 140px;
+    height: 75px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+    40%, #e5e5e5 48%);
+    margin-top: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+   }
+   
+   .will{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+  }
+
+  .will #card img{
+    width: 100%;
+  }
+
+  .will #card p{
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  @media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .back {
+        padding: 1rem;
+    }
+
+    .SubTittle {
+        max-width: 100%;
+    }
+
+    .Tittle {
+        font-size: 1.5rem;
+    }
+
+    .will img {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    #card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .card_load img {
+        max-width: 80px;
+    }
+
+    .card_title p, .card_descripion p {
+        font-size: 0.9rem;
+    }
+}

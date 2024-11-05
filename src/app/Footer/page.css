@@ -1,0 +1,129 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    justify-content: space-between;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: row;
+        gap: 1.5rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .footer-column h3 {
+        font-size: 1.1rem;
+    }
+
+    .footer-column ul li a {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-column {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer-column h3 {
+        font-size: 1rem;
+    }
+
+    .footer-column ul li a {
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom {
+        font-size: 0.85rem;
+    }
+}

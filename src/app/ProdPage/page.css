@@ -1,0 +1,63 @@
+.prod-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 25px;
+    padding: 25px;
+  }
+  
+  .service-section {
+    display: flex;
+    background-color: #E4F3FA;
+    padding: 40px;
+    align-items: center;
+    border-radius: 22px;
+  }
+  
+  .service-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .service-content h1 {
+    font-size: 32px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-content p {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .service-image {
+    flex: 1;
+  }
+  
+  .service-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .assurance-section {
+    margin-top: 25px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+    border-radius: 22px;
+  }
+  
+  .assurance-section h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .assurance-section p {
+    font-size: 16px;
+    color: #666666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

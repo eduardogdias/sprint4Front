@@ -1,0 +1,189 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin: 10px;
+     height: 100%;
+     overflow-x: hidden;
+     padding: 8px;
+     width: 100%;
+     background-color: #dfdfe0;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+  }
+
+  body h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 560;
+  }
+
+.container3 {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .title {
+    color: #0099ff;
+    text-align: center;
+  }
+  
+  .field {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    color: #1d1d1d;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .button3 {
+    width: 100%;
+    padding: 10px;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .container2{
+    background-color: #fff;
+    width: 1020px;
+    padding: 25px;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .container2 img{
+    width: 500px;
+    border-radius: 20px;
+    gap: 50px;
+    height: 100%;
+  }
+
+  .Inp{
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px; 
+    text-align: center;
+  }
+
+  .Cliccc{
+    width: 100%;
+    text-align: center;    
+    padding: 10px;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h6{
+    text-align: center;
+  }
+
+  .Estados{
+    width: 100%;
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+  }
+
+  .Estados:hover{
+    background-color: #1d1d1d;
+    color: white;
+  }
+
+  .Estados select:hover{
+    background-color: #1d1d1d;
+    color: white;
+  }
+
+  select option:hover{
+    color: white;
+    background-color: #1d1d1d;
+  }
+
+  select option::value:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1d1d1d;
+  }
+
+  @media (max-width: 1280px) {
+    .Will2 {
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .label, .input, .Estados, .button3, .Cliccc {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .Will2 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .title {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .field, .cep {
+        width: 100%;
+    }
+
+    .label {
+        font-size: 1rem;
+    }
+
+    .input, .Estados, .button3, .Cliccc {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .error {
+        font-size: 0.75rem;
+    }
+}

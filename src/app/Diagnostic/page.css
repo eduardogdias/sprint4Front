@@ -1,0 +1,199 @@
+body{
+  background-color: #dfdfe0;
+  margin: 10px;
+}
+
+body h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+body h2{
+  font-weight: 450;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #dfdfe0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .container h1{
+    font-weight: 450;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0099ff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  input{
+    color: #333 ;
+    background-color: white;
+  }
+
+  input::placeholder{
+    color: #333;
+  }
+
+  input, textarea {
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #0099ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 20%;
+  }
+  
+  button:hover {
+    background-color: #007acc;
+  }
+  
+  .successMessage {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .result {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    input, textarea, button {
+      font-size: 14px;
+    }
+  }
+  
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.successMessage, .result {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: green;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+      font-size: 1.8rem;
+  }
+
+  .section h2 {
+      font-size: 1.3rem;
+  }
+
+  input, textarea, button {
+      font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 1rem;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+  }
+
+  .section h2 {
+      font-size: 1.2rem;
+  }
+
+  input, textarea {
+      width: 90%;
+      font-size: 0.9rem;
+      padding: 0.6rem;
+  }
+
+  button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+  }
+
+  .successMessage, .result {
+      font-size: 0.9rem;
+  }
+}

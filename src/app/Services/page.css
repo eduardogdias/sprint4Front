@@ -1,0 +1,244 @@
+body{
+    background-color: #dfdfe0;
+}
+
+body h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.One{
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 235px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+}
+
+h1{
+    text-align: center;
+    color: rgb(57, 57, 57);
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.One h1{
+    font-weight: 500;
+}
+
+p{
+    text-align: center;
+    color: rgb(57, 57, 57);
+    font-size: 14px;
+    padding-top: -26px;
+}
+
+.Shape{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    padding: 25px;
+    padding-top: 120px;
+    margin-top: 20px;
+}
+
+.Two{
+    width: 330px;
+    height: 140px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Glass{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    width: 250px;
+    height: 85px;
+    margin-left: 25px;
+    margin-top: -20px;
+    border-radius: 24px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 100px;
+}
+
+.Glass a{
+    opacity: 0%;
+}
+
+.Glass:hover{
+    color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 25%;  
+    box-shadow: 10px 10px 10px 10px white;
+}
+
+.Glass a:hover{
+    opacity: 0;
+}
+
+.Wheel{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 54px;
+    height: 135px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #00000000;
+    margin-left: 320px;
+    margin-top: 170px;
+    font-size: 100px;
+}
+
+.Wheel a{
+    opacity: 0;
+}
+
+.Wheel:hover{
+    color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 20%;
+    box-shadow: 10px 10px 10px 10px white;
+}
+
+.Wheel a:hover{
+    opacity: 0;
+}
+
+.Wheel2{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 130px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #00000000;
+    margin-left: 536px;
+    margin-top: 145px;
+    font-size: 100px;   
+}
+
+.Wheel2 a{
+    opacity: 0;
+}
+
+.Wheel2:hover{
+    color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 20%;
+    box-shadow: 10px 10px 10px 10px white;
+}
+
+.Wheel2 a:hover{
+    opacity: 0;
+}
+
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.Engine{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 420px;
+    width: 250px;
+    height: 70px;
+    padding-left: 35px;
+    margin-top: -20px;
+    margin-left: -100px;
+    border-radius: 56px;    
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 100px;
+}
+
+.Engine a{
+    opacity: 0%;
+}
+
+.Engine:hover{
+    color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 25%;  
+    box-shadow: 10px 10px 10px 10px white;
+}
+
+.Engine a:hover{
+    opacity: 0;
+}
+
+@media (max-width: 1024px) {
+    .Two {
+      max-width: 90%;
+    }
+    
+    .Glass, .Wheel, .Wheel2, .Engine {
+      font-size: 0.9rem;
+      padding: 4px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .One h1 {
+      font-size: 1.4rem;
+    }
+    
+    .Two {
+      max-width: 100%;
+    }
+    
+    .Glass, .Wheel, .Wheel2, .Engine {
+      font-size: 0.85rem;
+      padding: 3px;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .One h1 {
+      font-size: 1.2rem;
+      padding: 10px;
+    }
+  
+    .Shape {
+      flex-direction: column;
+    }
+  
+    .Glass, .Wheel, .Wheel2, .Engine {
+      font-size: 0.8rem;
+      padding: 3px;
+    }
+  
+    .Glass {
+      top: 18%;
+      left: 48%;
+    }
+    
+    .Wheel {
+      bottom: 5%;
+      left: 15%;
+    }
+    
+    .Wheel2 {
+      bottom: 5%;
+      right: 15%;
+    }
+    
+    .Engine {
+      top: 50%;
+      left: 45%;
+    }
+  }
